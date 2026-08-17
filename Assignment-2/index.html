@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title>Assignment-2</title>
+    </head>
+
+    <body>
+
+
+            <form>
+                
+                <fieldset>
+                    <legend>personal information</legend>
+        <div>
+            <label>First Name :</label>
+            <input type="text" autofocus autocomplete="off" name="firstName" required
+                placeholder="enter your first Name">
+        </div>
+        <br>
+        <div>
+            <label>last Name : </label>
+            <input type="text" autofocus id="userLastName" name="lastName">
+
+        </div>
+        <br>
+        <div>
+            <h2>I am Akram mahmoud amer , student of Computer science and information</h2>
+            <label for="userEmail">Email</label>
+            <input type="email" id="userEmail" name="userEmail">
+        </div>
+        <br>
+        <div>
+
+            <label for="">Shipping Area</label>
+            <input type="text" name="shipping" value="cairo" disabled>
+            <input type="text" name="shippingArea" value="cairo" readonly>
+        </div>
+        <br>
+        <div>
+            <input type="password" placeholder="enter your password">
+        </div>
+
+        <div>
+            <label for="">Gender</label>
+            <input type="radio" name="gender" value="0"> <label>Male</label>
+            <input type="radio" name="gender" value="1"> <label>Female</label>
+        </div>
+        <br>
+
+        <div>
+            <label for="">languge</label>
+            <input type="checkbox" name="courses[]" value="c++"> <label>Html</label>
+            <input type="checkbox" name="courses[]" value="java"> <label>Css</label>
+            <input type="checkbox" name="courses[]" value="js"> <label>Js</label>
+            <input type="checkbox" name="courses[]" checked value="c#"> <label>Bootstrap</label>
+        </div>
+
+        <br>
+        <div>
+            <label for="">Age</label>
+            <input type="number" name="userAge" min="10" max="20">
+        </div>
+
+
+        <select name="track" id="">
+            <option value="10" disabled selected>please choose your track</option>
+            <option value="0">Frontend</option>
+            <option value="1">Backend</option>
+            <option value="2">Network</option>
+            <option value="3">flutter</option>
+        </select>
+
+        <br>
+
+        <input type="file" name="userFile" multiple>
+        <br>
+
+        <input type="text" pattern="[A-Za-z]{3,5}" title="enter only 1 uppercase letter">
+        <input type="text" pattern="[A-Za-z]+" title="enter only 1 uppercase letter">
+        <input type="text" pattern="[0-9]+" title="enter only numbers">
+
+        <br>
+        <div>
+            <label for="website">Homepage:</label>
+            <input type="url" id="website" name="website" pattern="https?://.+" title="Include http://">
+        </div>
+
+        <br>
+        <div>
+            <input type="date" name="userDate">
+            <input type="datetime-local">
+            <input type="month">
+        </div>
+        <br>
+        <input type="color">
+        <input type="range" name="range" min="200" max="400" value="200">
+
+        <div>
+            <label for="">ID</label>
+            <input type="text" minlength="10" maxlength="14">
+        </div>
+        <br>
+
+        <div>
+            <textarea name="userComment" id="" placeholder="enter your comment" cols="50" rows="4"></textarea>
+        </div>
+
+
+
+        <br>
+
+        <input type="submit" value="login">
+        <button type="submit">Register</button>
+
+        <input type="reset" value="clear Data">
+        <button type="reset">Clear Info</button>
+
+    </fieldset>
+
+    </form>
+
+
+
+            
+    </body>
+    </html>
