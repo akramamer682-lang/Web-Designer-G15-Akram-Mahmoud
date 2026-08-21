@@ -1,0 +1,198 @@
+* { 
+        box-sizing: border-box; 
+        margin: 0; 
+        padding: 0; }
+    body {
+        font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+        color: #2b2b2b;
+        background: #fff;
+    }
+    a { 
+        text-decoration: none; 
+        color: inherit; }
+
+    
+    .hero {
+        position: relative;
+        background:url('https://picsum.photos/seed/skyline/1600/900') center/cover no-repeat;
+        padding: 60px 8%;
+        color: #fff;
+    }
+
+    .hero-left {
+        display: inline-block;
+        vertical-align: top;
+        width: 55%;
+        padding-top: 30px;
+    }
+    .hero-left .logo {
+        font-size: 2.2rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+    .hero-left .logo span { color: #ffb347; }
+
+    .hero-left h1 {
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin-bottom: 18px;
+        line-height: 1.4;
+    }
+    .hero-left p {
+        font-size: 0.95rem;
+        line-height: 1.7;
+        max-width: 420px;
+        color: #dcdcdc;
+        margin-bottom: 28px;
+    }
+    .hero-left .btn-outline {
+        display: inline-block;
+        border: 2px solid #fff;
+        padding: 12px 32px;
+        font-size: 0.9rem;
+        border-radius: 3px;
+        transition: background 0.2s, color 0.2s;
+    }
+    .hero-left .btn-outline:hover {
+        background: #ffb347;
+        border-color: #ffb347;
+        color: #1a1a2b;
+    }
+
+    .hero-right {
+        display: inline-block;
+        vertical-align: top;
+        width: 43%;
+        margin-left: 50%;
+    }
+    .signup-card {
+        background: #fff;
+        color: #2b2b2b;
+        border-radius: 6px;
+        padding: 28px;
+    }
+    .signup-card h3 {
+        font-size: 1.1rem;
+        margin-bottom: 18px;
+    }
+    .signup-card h3 .accent { color: #ffb347; }
+    .signup-card input {
+        display: block;
+        width: 100%;
+        padding: 12px 14px;
+        margin-bottom: 14px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 0.9rem;
+    }
+    .signup-card button {
+        display: inline-block;
+        width: 100%;
+        background: #ffb347;
+        color: #1a1a2b;
+        font-weight: 700;
+        border: none;
+        padding: 14px;
+        border-radius: 4px;
+        font-size: 0.9rem;
+    }
+
+    .social-bar {
+        padding: 26px 8%;
+        border-bottom: 1px solid #eee;
+    }
+    .social-left {
+        display: inline-block;
+        vertical-align: middle;
+        width: 60%;
+    }
+    .social-left strong {
+        display: block;
+        font-size: 0.95rem;
+        margin-bottom: 4px;
+        color: #1a1a2b;
+    }
+    .social-left span {
+        font-size: 0.85rem;
+        color: #888;
+    }
+    .social-right {
+        display: inline-block;
+        vertical-align: middle;
+        width: 38%;
+        text-align: right;
+    }
+    .social-right a {
+        display: inline-block;
+        width: 34px;
+        height: 34px;
+        line-height: 34px;
+        text-align: center;
+        border-radius: 50%;
+        background: #f2f2f2;
+        color: #555;
+        margin-left: 8px;
+        font-size: 0.85rem;
+        font-weight: 700;
+    }
+
+    .tabs-section {
+        padding: 60px 8%;
+        background: #fafafa;
+    }
+    .tabs-left {
+        display: inline-block;
+        vertical-align: top;
+        width: 16%;
+    }
+    .tab-btn {
+        display: block;
+        padding: 16px 10px;
+        margin-bottom: 4px;
+        background: #1a1a2b;
+        color: #ddd;
+        font-size: 0.85rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .tab-btn-active{
+        background-color: #ffb347;
+        color: #2b2b2b;
+    }
+
+    .tabs-mid {
+        display: inline-block;
+        vertical-align: top;
+        width: 40%;
+        padding: 0 4%;
+    }
+    .tabs-mid h2 {
+        font-size: 1.3rem;
+        margin-bottom: 16px;
+        color: #1a1a2b;
+    }
+    .tabs-mid p {
+        font-size: 0.9rem;
+        line-height: 1.7;
+        color: #777;
+        margin-bottom: 24px;
+    }
+    .btn-solid {
+        display: inline-block;
+        background: #ffb347;
+        color: #1a1a2b;
+        font-weight: 700;
+        padding: 12px 30px;
+        border-radius: 3px;
+        font-size: 0.85rem;
+    }
+
+    .tabs-right {
+        display: inline-block;
+        vertical-align: top;
+        width: 36%;
+        text-align: center;
+    }
+    .tabs-right img { max-width: 100%; }
