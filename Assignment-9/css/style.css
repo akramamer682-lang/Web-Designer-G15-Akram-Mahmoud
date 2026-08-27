@@ -1,0 +1,74 @@
+
+:root{
+    --navy:#0d1526;
+    --navy-2:#121b30;
+    --coral:#fff;
+    --coral-dark:#d45f37;
+}
+body{ 
+    font-family:'Inter', sans-serif; 
+}
+h1,h2,h3,h4,h5,.brand{ 
+    font-family:'Poppins', sans-serif;
+}
+
+.bg-navy{ 
+    background-color:var(--navy) !important; 
+}
+.bg-navy-2{ 
+    background-color:var(--navy-2) !important; 
+}
+.text-coral{ 
+    color:#121b30 !important; 
+}
+
+.bg-coral{ 
+    background-color:var(--coral) !important; 
+    border-color:var(--coral) !important; 
+}
+
+.border-line{ 
+    border-color:rgba(255,255,255,.08) !important; 
+}
+
+.btn-navy{ 
+    background-color:#fff !important; 
+    color:#121b30 !important; 
+}
+
+.btn-coral{ 
+    background-color:var(--coral) !important; 
+    color:#121b30 !important; 
+    border:none !important; 
+}
+
+
+.filter-pill.active{ 
+    background-color:var(--navy) !important; 
+    color:#fff !important; 
+    border-color:var(--navy) !important; 
+}
+
+.hero-bg{
+    background-image: url(../images/hero1.png);
+    background-size: cover;
+    background-position: right;
+}
+
+.footer-dark input.form-control,
+.footer-dark textarea.form-control{
+    background-color:#0a1120 !important;
+    color:#fff !important;
+}
+.footer-dark input.form-control::placeholder,
+.footer-dark textarea.form-control::placeholder{ 
+    color:#5f6a80; 
+}
+.footer-dark a{ 
+    text-decoration:none; 
+}
+
+.d-block{
+    color: #5f6a80;
+    
+}
