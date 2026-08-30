@@ -36,3 +36,16 @@ function looping(startNum, endNum, breakNum, contNum) {
 
 
 looping(1,10,8,3);
+
+
+
+var courses = ["html", "css", "js"];
+
+var searchCourse = prompt("enter course name to search");
+
+if (courses.includes(searchCourse)) {
+    alert("found");
+} else {
+    courses.push(searchCourse);
+    console.log(courses);
+}
