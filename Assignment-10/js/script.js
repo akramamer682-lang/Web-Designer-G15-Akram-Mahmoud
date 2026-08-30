@@ -13,3 +13,26 @@ var degree = prompt("Enter Your Degree");
     } else {
         console.log("failed")
     }
+
+
+
+// function looping ==> startNum , endNum , breakNum , contNum
+function looping(startNum, endNum, breakNum, contNum) {
+    if(startNum != null && endNum != null && breakNum != null && contNum != null){
+    
+    for (var i = startNum; i <= endNum; i++) {
+        if (i === breakNum) {
+            break;
+        }
+        if (i === contNum) {
+            continue;
+        }
+        console.log(i);
+    }
+    }else{
+        alert("Please Enter All Num")
+    }
+}
+
+
+looping(1,10,8,3);
