@@ -42,6 +42,27 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #0b5ed7;
-}
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+
+
+    img{
+    width: 320px;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+    border: 1px solid #23201B22;
+    transition: opacity .3s ease;
+    }
+
+    #changeImg{
+    margin-top: 12px;
+    padding: 12px 20px;
+    width: 10%;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    color: #fff;
+    background:  #0b5ed7;
+    border: none;
+    border-radius: 25px;
+    }

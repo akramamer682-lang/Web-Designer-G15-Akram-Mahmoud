@@ -24,3 +24,15 @@ form.appendChild(button);
 var divContainer = document.getElementById("divContainer");
 
 divContainer.appendChild(form);
+
+const photo = document.getElementById('photo');
+const btn = document.getElementById('changeImg');
+let isChanged = false;
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+btn.addEventListener('click', () => {
+    isChanged = !isChanged;
+    photo.src = isChanged ? "images/mg-zs.jpeg" : "images/hyundai-accent-rb.jpeg";
+});
